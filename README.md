@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Sahil</h1>
 <h3 align="center">A passionate astrophysics student from India based out of Potsdam</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=No.+of+people+curios+about+me&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=No.+of+people+curious+about+me&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
 
 - 🔭 I’m currently working on [NMMA](https://github.com/nuclear-multimessenger-astronomy/nmma)
 - 📄 Know about my experiences: [CV](https://github.com/sahiljhawar/sahiljhawar/blob/main/Sahil%20Jhawar%20CV.pdf)
