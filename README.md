@@ -67,6 +67,12 @@
 
 
 </p>
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sahiljhawar&show_icons=true&locale=en" alt="sahiljhawar" /></p>
 
+<p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljhawar&show_icons=true&locale=en&theme=github_dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljhawar&show_icons=true&locale=en">
+      <img alt="sahiljhawar">
+    </picture>
+</p>
 
