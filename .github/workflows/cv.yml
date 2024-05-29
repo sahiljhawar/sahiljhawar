@@ -1,0 +1,45 @@
+name: Compile LaTeX and Save CV
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every day at midnight
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout main repo
+      uses: actions/checkout@v3
+
+    - name: Checkout private LaTeX repo
+      uses: actions/checkout@v3
+      with:
+        repository: sahiljhawar/cv_private
+        token: ${{ secrets.LATEX_BUILD }}
+        path: latex_source
+
+    - name: Set up LaTeX environment
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y texlive-full
+
+    - name: Compile LaTeX document
+      run: |
+        cd SahilJhawar_CV
+        pdflatex main.tex
+
+    - name: Move compiled CV to main repo
+      run: |
+        mv latex_source/cv.pdf ./SahilJhawar_CV.pdf
+
+    - name: Commit and push CV
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add -A
+        git commit --allow-empty -m 'Update CV'
+        git push
+      env:
+        GH_TOKEN: ${{ secrets.LATEX_BUILD }}
