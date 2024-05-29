@@ -36,7 +36,7 @@ jobs:
         
     - name: Move compiled CV to main repo
       run: |
-        mv cv.pdf ./SahilJhawar_CV.pdf
+        mv main.pdf ./SahilJhawar_CV.pdf
 
     - name: Commit and push CV
       run: |
