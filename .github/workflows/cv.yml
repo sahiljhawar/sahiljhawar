@@ -26,11 +26,11 @@ jobs:
         
     - uses: xu-cheng/latex-action@v3
       with:
-        root_file: main.tex
+        root_file: $HOME/latex_source/SahilJhawar_CV/main.tex
         
     - name: Move compiled CV to main repo
       run: |
-        mv latex_source/cv.pdf ./SahilJhawar_CV.pdf
+        mv cv.pdf ./SahilJhawar_CV.pdf
 
     - name: Commit and push CV
       run: |
