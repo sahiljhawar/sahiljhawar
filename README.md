@@ -4,8 +4,8 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=Profile+views&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
 
 - 🔭 I’m currently working on [NMMA](https://github.com/nuclear-multimessenger-astronomy/nmma)
-- 📄 Know about my experiences: [CV](https://github.com/sahiljhawar/sahiljhawar/blob/main/SahilJhawar_CV.pdf)
-- 📫 How to reach me: **sahil $\cdot$ jhawar448 $\@$ gmail $\cdot$ com**
+- 📄 My semi automated [CV](https://github.com/sahiljhawar/sahiljhawar/blob/main/SahilJhawar_CV.pdf) (scraping the source code from my Overleaf account, saving it to a private repo and then this repo fetches the code from private repo and compiles the $\LaTeX$ code into a PDF)
+- 📫 How to reach me: **sahil $\cdot$ jhawar448 $@$ gmail $\cdot$ com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
