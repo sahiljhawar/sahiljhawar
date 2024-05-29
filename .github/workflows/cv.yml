@@ -32,7 +32,7 @@ jobs:
       continue-on-error: true
     
     - name: ls
-      run: ls ~/latex_source/SahilJhawar_CV
+      run: ls /home/runner/work/sahiljhawar/sahiljhawar/latex_source/SahilJhawar_CV
         
     - name: Move compiled CV to main repo
       run: |
