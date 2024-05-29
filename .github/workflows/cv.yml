@@ -20,6 +20,9 @@ jobs:
         token: ${{ secrets.LATEX_BUILD }}
         path: latex_source
 
+    - name: ls it
+      run: ls
+
     - name: Set up LaTeX environment
       run: |
         sudo apt-get update
