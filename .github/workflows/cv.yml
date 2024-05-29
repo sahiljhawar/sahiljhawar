@@ -42,7 +42,10 @@ jobs:
     - name: Compile LaTeX document
       run: |
         cd latex_source/SahilJhawar_CV
-        pdflatex main.tex
+        pdflatex -interaction=nonstopmode main.tex
+        bibtex main
+        pdflatex -interaction=nonstopmode main.tex
+        pdflatex -interaction=nonstopmode main.tex
 
     - name: Move compiled CV to main repo
       run: |
