@@ -23,14 +23,11 @@ jobs:
         repository: sahiljhawar/cv_private
         token: ${{ secrets.LATEX_BUILD }}
         path: latex_source
-    - name: ls
-      run: |
-        ls
-        pwd
         
     - uses: xu-cheng/latex-action@v3
       with:
         root_file: latex_source/SahilJhawar_CV/main.tex
+        continue_on_error: true
         
     - name: Move compiled CV to main repo
       run: |
