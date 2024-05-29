@@ -24,9 +24,6 @@ jobs:
         token: ${{ secrets.LATEX_BUILD }}
         path: latex_source
 
-    - name: ls it
-      run: ls latex_source
-
     - name: Cache TeX Live
       id: cache-texlive
       uses: actions/cache@v3
@@ -44,7 +41,7 @@ jobs:
 
     - name: Compile LaTeX document
       run: |
-        cd SahilJhawar_CV
+        cd latex_source/SahilJhawar_CV
         pdflatex main.tex
 
     - name: Move compiled CV to main repo
@@ -55,7 +52,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add -A
+        git add SahilJhawar_CV.pdf
         git commit --allow-empty -m 'Update CV'
         git push
       env:
