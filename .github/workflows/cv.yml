@@ -27,6 +27,7 @@ jobs:
     - uses: xu-cheng/latex-action@v3
       with:
         root_file: latex_source/SahilJhawar_CV/main.tex
+        work_in_root_file_dir: true
         args: "-pdf -interaction=nonstopmode"
         continue_on_error: true
         
