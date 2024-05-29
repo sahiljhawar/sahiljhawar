@@ -25,7 +25,7 @@ jobs:
         path: latex_source
 
     - name: ls it
-      run: ls
+      run: ls latex_source
 
     - name: Set up LaTeX environment
       run: |
