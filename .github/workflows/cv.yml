@@ -27,7 +27,17 @@ jobs:
     - name: ls it
       run: ls latex_source
 
+    - name: Cache TeX Live
+      id: cache-texlive
+      uses: actions/cache@v3
+      with:
+        path: /usr/local/texlive
+        key: texlive-${{ runner.os }}-2024
+        restore-keys: |
+          texlive-${{ runner.os }}-
+
     - name: Set up LaTeX environment
+      if: steps.cache-texlive.outputs.cache-hit != 'true'
       run: |
         sudo apt-get update
         sudo apt-get install -y texlive-full
