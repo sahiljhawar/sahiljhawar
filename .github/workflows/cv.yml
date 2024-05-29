@@ -27,6 +27,7 @@ jobs:
     - uses: xu-cheng/latex-action@v3
       with:
         root_file: latex_source/SahilJhawar_CV/main.tex
+        args: "-pdf -interaction=nonstopmode"
         continue_on_error: true
         
     - name: Move compiled CV to main repo
