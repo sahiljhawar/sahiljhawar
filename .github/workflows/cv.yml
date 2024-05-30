@@ -43,6 +43,7 @@ jobs:
     - name: Committing changes
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-          add_options: "SahilJhawar_CV.pdf"
+          file_pattern: "*.pdf"
+          add_options: "-A"
           commit_message: Update CV
           commit_options: "--allow-empty"
