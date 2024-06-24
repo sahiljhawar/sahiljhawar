@@ -47,3 +47,6 @@ jobs:
           add_options: "-A"
           commit_message: Update CV
           commit_options: "--allow-empty"
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
