@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=Profile+views&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
 
-- 🔭 I’m currently working on [NMMA](https://github.com/nuclear-multimessenger-astronomy/nmma)
+- 🔭 I’m currently working on at GFZ Potsdam
 - 📄 My semi automated [CV](https://github.com/sahiljhawar/sahiljhawar/blob/main/SahilJhawar_CV.pdf)
 - 📫 How to reach me: **sahil $\cdot$ jhawar448 $@$ gmail $\cdot$ com**
 
