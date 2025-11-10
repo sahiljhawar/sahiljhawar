@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Sahil</h1>
-<h3 align="center">A passionate astrophysics student from India based out of Potsdam</h3>
+<h3 align="center">Astrophysicist. Programmer. Sprinkles of math and statistics. </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=Profile+views&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
 
