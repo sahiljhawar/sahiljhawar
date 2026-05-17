@@ -18,11 +18,5 @@
  [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30"/>](https://www.python.org)[<img src="https://numpy.org/images/logo.svg" width="30"/>](https://numpy.org/)[<img src="https://www.astropy.org/images/astropy_brandmark.png" width="30"/>](https://www.astropy.org/)[<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="30"/>](https://pandas.pydata.org/)[<img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="30"/>](https://seaborn.pydata.org/)[<img src="https://avatars.githubusercontent.com/u/667583?s=200&v=4" width="30"/>](https://www.latex-project.org/)[<img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" width="30"/>](https://www.gnu.org/software/bash/)[<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="30"/>](https://www.w3schools.com/cpp/)[<img src="https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon~v2.svg" width="30"/>](https://flask.palletsprojects.com/)[<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="30"/>](https://git-scm.com/)[<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="30"/>](https://www.linux.org/)[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fortran/fortran-original.svg" width="30"/>](https://fortran-lang.org/)
 </p>
 
-<p align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljhawar&show_icons=true&locale=en&theme=github_dark">
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=sahiljhawar&show_icons=true&locale=en">
-      <img alt="sahiljhawar">
-    </picture>
-</p>
+![Stats](./profile/stats.svg)
 
