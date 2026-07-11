@@ -4,7 +4,6 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahiljhawar&label=Profile+views&color=0e75b6&style=flat" alt="sahiljhawar" /> </p>
 
 - 🔭 I’m currently working at GFZ Potsdam
-- 📄 [CV](https://github.com/sahiljhawar/sahiljhawar/blob/main/SahilJhawar_CV.pdf)
 - 📫 How to reach me: **sahil $\cdot$ jhawar448 $@$ gmail $\cdot$ com**
 
 <h3 align="left">Connect with me:</h3>
